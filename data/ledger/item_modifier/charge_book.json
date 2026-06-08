@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:copy_custom_data",
+  "source": {
+    "type": "minecraft:storage",
+    "source": "ledger:temp"
+  },
+  "ops": [
+    {"source": "book_id", "target": "ledger_id", "op": "replace"}
+  ]
+}

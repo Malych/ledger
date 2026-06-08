@@ -1,0 +1,2 @@
+execute as @a[tag=ledger.await_result, limit=1] at @s run execute as @e[type=minecraft:villager, tag=ledger.pending, distance=..12, limit=1, sort=nearest] run function ledger:paste/set_offers
+schedule function ledger:paste/finish 3t

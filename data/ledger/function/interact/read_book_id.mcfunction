@@ -1,0 +1,20 @@
+scoreboard players set #book_id ledger 0
+execute if data entity @s SelectedItem.components."minecraft:custom_data".ledger_id store result score #book_id ledger run data get entity @s SelectedItem.components."minecraft:custom_data".ledger_id
+execute if score #book_id ledger matches 0 if data entity @s equipment.mainhand.components."minecraft:custom_data".ledger_id store result score #book_id ledger run data get entity @s equipment.mainhand.components."minecraft:custom_data".ledger_id
+execute if score #book_id ledger matches 0 if data entity @s weapon.mainhand.components."minecraft:custom_data".ledger_id store result score #book_id ledger run data get entity @s weapon.mainhand.components."minecraft:custom_data".ledger_id
+execute if score #book_id ledger matches 0 if items entity @s weapon.mainhand minecraft:warped_fungus_on_a_stick[minecraft:custom_data~{ledger_id:1}] run scoreboard players set #book_id ledger 1
+execute if score #book_id ledger matches 0 if items entity @s weapon.mainhand minecraft:warped_fungus_on_a_stick[minecraft:custom_data~{ledger_id:2}] run scoreboard players set #book_id ledger 2
+execute if score #book_id ledger matches 0 if items entity @s weapon.mainhand minecraft:warped_fungus_on_a_stick[minecraft:custom_data~{ledger_id:3}] run scoreboard players set #book_id ledger 3
+execute if score #book_id ledger matches 0 if items entity @s weapon.mainhand minecraft:warped_fungus_on_a_stick[minecraft:custom_data~{ledger_id:4}] run scoreboard players set #book_id ledger 4
+execute if score #book_id ledger matches 0 if items entity @s weapon.mainhand minecraft:warped_fungus_on_a_stick[minecraft:custom_data~{ledger_id:5}] run scoreboard players set #book_id ledger 5
+execute if score #book_id ledger matches 0 if items entity @s weapon.mainhand minecraft:warped_fungus_on_a_stick[minecraft:custom_data~{ledger_id:6}] run scoreboard players set #book_id ledger 6
+execute if score #book_id ledger matches 0 if items entity @s weapon.mainhand minecraft:warped_fungus_on_a_stick[minecraft:custom_data~{ledger_id:7}] run scoreboard players set #book_id ledger 7
+execute if score #book_id ledger matches 0 if items entity @s weapon.mainhand minecraft:warped_fungus_on_a_stick[minecraft:custom_data~{ledger_id:8}] run scoreboard players set #book_id ledger 8
+execute if score #book_id ledger matches 0 if items entity @s weapon.mainhand minecraft:warped_fungus_on_a_stick[minecraft:custom_data~{ledger_id:9}] run scoreboard players set #book_id ledger 9
+execute if score #book_id ledger matches 0 if items entity @s weapon.mainhand minecraft:warped_fungus_on_a_stick[minecraft:custom_data~{ledger_id:10}] run scoreboard players set #book_id ledger 10
+execute if score #book_id ledger matches 0 if items entity @s weapon.mainhand minecraft:warped_fungus_on_a_stick[minecraft:custom_data~{ledger_id:11}] run scoreboard players set #book_id ledger 11
+execute if score #book_id ledger matches 0 if items entity @s weapon.mainhand minecraft:warped_fungus_on_a_stick[minecraft:custom_data~{ledger_id:12}] run scoreboard players set #book_id ledger 12
+execute if score #book_id ledger matches 0 if items entity @s weapon.mainhand minecraft:warped_fungus_on_a_stick[minecraft:custom_data~{ledger_id:13}] run scoreboard players set #book_id ledger 13
+execute if score #book_id ledger matches 0 if items entity @s weapon.mainhand minecraft:warped_fungus_on_a_stick[minecraft:custom_data~{ledger_id:14}] run scoreboard players set #book_id ledger 14
+execute if score #book_id ledger matches 0 if items entity @s weapon.mainhand minecraft:warped_fungus_on_a_stick[minecraft:custom_data~{ledger_id:15}] run scoreboard players set #book_id ledger 15
+execute if score #book_id ledger matches 0 if items entity @s weapon.mainhand minecraft:warped_fungus_on_a_stick[minecraft:custom_data~{ledger_id:16}] run scoreboard players set #book_id ledger 16

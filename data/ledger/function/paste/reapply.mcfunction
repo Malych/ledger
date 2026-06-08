@@ -1,0 +1,1 @@
+function ledger:paste/offers_data
